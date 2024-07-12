@@ -1,0 +1,154 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:background="@drawable/gradient1"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First name :"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter fname"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/fname"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Last name :"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter lname"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/lname"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="College :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter college"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/col"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Date of birth :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="enter dob"
+        android:id="@+id/dob"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Course :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="enter course"
+        android:id="@+id/course"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"
+        android:text="Mob no :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="enter mob no"
+        android:textColor="@color/cardview_light_background"
+        android:inputType="number"
+        android:id="@+id/mob"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Email id :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="enter email"
+        android:id="@+id/email"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:text="Address :"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:hint="enter address"
+        android:id="@+id/address"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/sub"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/back"/>
+</LinearLayout>
